@@ -2,7 +2,7 @@ package EPrints::Plugin::Script::DumpData;
 
 =head1 NAME
 
-EPrints::Plugin::EScript::Substitute
+EPrints::Plugin::EScript::DumpData
 
 =head1 VERSION
 
@@ -59,3 +59,5 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 =cut
+
+1;
