@@ -1,0 +1,7 @@
+This only works on recent versions of EPrints. In older versions,
+PluginFactory did not wrap the evaluation of the module in 'eval', which
+caused it to fail when attempting to invoke the 'new' method, breaking everything!
+
+I attempted to provide a kludge for this by mimicing the Plugin interface but
+with methods that returned nothing, but this became more and more complicated
+to the point where I no longer considered it tenable to use.
