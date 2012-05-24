@@ -1,6 +1,12 @@
-# EScript extensions
+# EScript extensions - do not use
 
 Some extensions for the EPrints EScript language.
+
+## Warning
+
+Do not use this - it does not work as a plug in (causes EPrints to crash on
+restart). You can copy the functions directly into the Compiled file, but they
+will be overwritten by EPrints updates.
 
 ## Background
 
